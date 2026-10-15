@@ -1,0 +1,51 @@
+{
+  "name": "@abliteration/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server exposing the abliteration.org public API to AI agents (Claude Code, Cursor, Windsurf)",
+  "type": "module",
+  "bin": {
+    "abliteration-mcp": "./bin/mcp.mjs"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node bin/mcp.mjs",
+    "smoke": "npm run build && node scripts/smoke.mjs",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "llm",
+    "abliteration",
+    "uncensored",
+    "huggingface"
+  ],
+  "author": "Catyonic OÜ",
+  "license": "MIT",
+  "homepage": "https://abliteration.org/mcp",
+  "bugs": {
+    "url": "https://github.com/neymark/abliteration-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neymark/abliteration-mcp.git"
+  }
+}
