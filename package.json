@@ -1,7 +1,6 @@
 {
   "name": "@abliteration/mcp",
   "version": "0.1.0",
-  "private": true,
   "description": "MCP server exposing the abliteration.org public API to AI agents (Claude Code, Cursor, Windsurf)",
   "type": "module",
   "bin": {
