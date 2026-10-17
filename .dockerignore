@@ -1,0 +1,28 @@
+# Keep the Docker build context small and deterministic.
+
+# Local build output - re-built inside the build stage.
+dist/
+node_modules/
+
+# Dev noise.
+.git/
+.github/
+.vscode/
+.idea/
+
+# OS cruft.
+.DS_Store
+Thumbs.db
+
+# Logs and local env.
+*.log
+.env
+.env.*
+
+# Scripts and docs that have no business in a runtime image.
+scripts/
+*.md
+!README.md
+
+# npm pack output.
+*.tgz
