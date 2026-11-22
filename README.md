@@ -2,7 +2,7 @@
 
 An [MCP](https://modelcontextprotocol.io) server that gives AI agents - Claude Code, Claude Desktop, Cursor, Windsurf and any other MCP host - direct access to the [abliteration.org public API](https://abliteration.org/api). Your agent can search the catalog of abliterated and uncensored LLMs, read the M-code method taxonomy, look up authors, datasets and indices, and follow the change streams Hugging Face doesn't offer: delisted models, the 24-month deletion record, README drift history and download anomalies. Every call is billed in credits from your abliteration.org wallet, and every result starts with a `cost: 5 cr · balance: 704 cr` line, so the agent can tell you what it spent.
 
-You need an API key from [abliteration.org/api](https://abliteration.org/api). The key looks like `abl_live_...`.
+You need an API key from your [account page](https://abliteration.org/shop/account#api-keys) (paid balance required; see [abliteration.org/api](https://abliteration.org/api)). The key looks like `abl_live_...`.
 
 ## Install
 
