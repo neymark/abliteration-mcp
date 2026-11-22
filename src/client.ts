@@ -28,10 +28,10 @@ export const PACKAGE_VERSION = '0.1.0';
 /** Shown whenever a call is attempted without a key. */
 export const MISSING_KEY_MESSAGE =
   'No API key configured. Set ABLITERATION_API_KEY to your abliteration.org key ' +
-  '(or pass --api-key). Get one at https://abliteration.org/api';
+  '(or pass --api-key). Get one at https://abliteration.org/shop/account#api-keys';
 
 const UNAUTHORIZED_MESSAGE =
-  'Invalid or missing ABLITERATION_API_KEY. Get one at https://abliteration.org/api';
+  'Invalid or missing ABLITERATION_API_KEY. Get one at https://abliteration.org/shop/account#api-keys';
 
 const OUT_OF_CREDITS_MESSAGE =
   'Out of credits. Top up at https://abliteration.org/shop/pricing';
