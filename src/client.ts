@@ -23,7 +23,7 @@ const log = createLogger('abl:http');
 export const DEFAULT_API_BASE = 'https://abliteration.org/api/v1';
 
 /** Version string sent in the user-agent; kept in step with package.json. */
-export const PACKAGE_VERSION = '0.1.0';
+export const PACKAGE_VERSION = '0.1.1';
 
 /** Shown whenever a call is attempted without a key. */
 export const MISSING_KEY_MESSAGE =
